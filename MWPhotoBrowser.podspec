@@ -28,7 +28,7 @@ s.screenshots = ['https://raw.github.com/mwaterfall/MWPhotoBrowser/' \
                      'master/Preview/MWPhotoBrowser6.png']
 
 s.source      = { :git => 'https://github.com/ng520tx/MWPhotoBrowser.git',
-                    :commit => '7ee850fbb866e45d12c02979b37c14bc9c79c7f2' }
+                    :tag => '1.5.0' }
                     
 s.platform = :ios, '5.1.1'
 s.source_files = 'MWPhotoBrowser/Classes/*.{h,m}'
