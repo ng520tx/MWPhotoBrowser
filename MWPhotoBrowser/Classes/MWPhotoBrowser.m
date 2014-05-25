@@ -185,7 +185,7 @@
         _nextButton = [[UIBarButtonItem alloc] initWithImage:[UIImage imageNamed:[NSString stringWithFormat:arrowPathFormat, @"Right"]] style:UIBarButtonItemStylePlain target:self action:@selector(gotoNextPage)];
     }
     if (self.displayActionButton) {
-        _actionButtonType = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:self.barType target:self action:@selector(actionButtonPressed:)];
+        _actionButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:self.actionButtonType target:self action:@selector(actionButtonPressed:)];
     }
     
     // Update

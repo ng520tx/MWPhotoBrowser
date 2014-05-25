@@ -11,7 +11,7 @@
 #import "MWGridViewController.h"
 #import "MWZoomingScrollView.h"
 
-// Declare private methods of browser
+// Declare private methods of browser  //定义私有方法...
 @interface MWPhotoBrowser () {
     
 	// Data
