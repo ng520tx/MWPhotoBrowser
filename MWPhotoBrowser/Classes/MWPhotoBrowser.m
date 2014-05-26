@@ -285,19 +285,19 @@
     }
 
     // Toolbar visibility
-    [_toolbar setItems:items];
-    BOOL hideToolbar = YES;
-    for (UIBarButtonItem* item in _toolbar.items) {
-        if (item != fixedSpace && item != flexSpace) {
-            hideToolbar = NO;
-            break;
-        }
-    }
-    if (hideToolbar) {
-        [_toolbar removeFromSuperview];
-    } else {
-        [self.view addSubview:_toolbar];
-    }
+//    [_toolbar setItems:items];
+//    BOOL hideToolbar = YES;
+//    for (UIBarButtonItem* item in _toolbar.items) {
+//        if (item != fixedSpace && item != flexSpace) {
+//            hideToolbar = NO;
+//            break;
+//        }
+//    }
+//    if (hideToolbar) {
+//        [_toolbar removeFromSuperview];
+//    } else {
+//        [self.view addSubview:_toolbar];
+//    }
     
     // Update nav
 	[self updateNavigation];
