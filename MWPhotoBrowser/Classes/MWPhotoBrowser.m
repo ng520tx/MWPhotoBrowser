@@ -298,6 +298,7 @@
 //    } else {
 //        [self.view addSubview:_toolbar];
 //    }
+//
     
     // Update nav
 	[self updateNavigation];
